@@ -27,7 +27,7 @@ array (size=6)
 
 ##Install
 
-`composer require "zhuzhichao/bank-card-info"`。
+`composer require "duxphp/bank-card"`。
 
 ##Usage
 
@@ -36,7 +36,7 @@ array (size=6)
 
 2.加载插件
 
-3.然后开始在你的项目里面使用了 `BankCard::info('6225700000000000')` 获取银行卡信息.
+3.然后开始在你的项目里面使用了 `BankCard::info('6225700000000000', bool)` 获取银行卡信息.
 ```
 // 返回结果
 array (size=6)
@@ -78,10 +78,12 @@ array (size=165)
   more elements...
 ```
 
-6.单独获取银行LOGO `BankCard::getBankImg('ABC')`
+6.单独获取银行LOGO `BankCard::getBankImg('ABC')` 或者手动复制`src/logo`目录下logo
 ```
 https://apimg.alipay.com/combo.png?d=cashier&t=ABC
 ```
+
+7.小图标获取,手动复制`src/small_logo`目录下logo，小图标为人工ps处理，只用于规则内银行，如有兴趣可以添加后提交给我
 
 ##鸣谢
 支付宝提供的这么好用的接口 ^_^
