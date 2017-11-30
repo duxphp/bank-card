@@ -1,7 +1,7 @@
 <?php
 require __DIR__.'/../vendor/autoload.php';
 
-use Zhuzhichao\BankCardInfo\BankCard;
+use DuxPhp\BankCardInfo\BankCard;
 
 class TestBankCard extends PHPUnit_Framework_TestCase
 {

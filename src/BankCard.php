@@ -1,6 +1,6 @@
 <?php
 
-namespace Zhuzhichao\BankCardInfo;
+namespace DuxPhp\BankCardInfo;
 
 class BankCard
 {
